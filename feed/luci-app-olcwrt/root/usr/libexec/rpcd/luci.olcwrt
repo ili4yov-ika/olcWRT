@@ -1,0 +1,3 @@
+#!/bin/sh
+# rpcd plugin for luci-app-olcwrt: the olcwrt binary implements the protocol.
+exec /usr/bin/olcwrt rpcd "$@"

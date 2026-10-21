@@ -1,0 +1,57 @@
+name: build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  # olcrtc revision packaged by feed/olcrtc/Makefile
+  OLCRTC_REF: f3ad8fb7c0d0fa981423f83269526fa94077c23d
+  APK_TOOLS_STATIC: https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64/apk-tools-static-3.0.8-r0.apk
+
+jobs:
+  packages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: openlibrecommunity/olcrtc
+          ref: ${{ env.OLCRTC_REF }}
+          path: SOURCES/olcrtc
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26'
+          cache: false
+
+      - name: Test olcwrt
+        working-directory: feed/olcwrt/src
+        run: |
+          go vet ./...
+          go test -race -count=1 ./...
+
+      - name: Install apk-tools
+        run: |
+          sudo apt-get install -y fakeroot
+          curl -fsSL -o apk-tools-static.apk "$APK_TOOLS_STATIC"
+          tar -xzf apk-tools-static.apk sbin/apk.static
+          sudo install -m 0755 sbin/apk.static /usr/local/bin/apk.static
+
+      - name: Build packages
+        working-directory: tools/pkgbuild
+        run: |
+          go build -o pkgbuild .
+          ./pkgbuild -arch all -apk /usr/local/bin/apk.static
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: olcwrt-ipk
+          path: dist/ipk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: olcwrt-apk
+          path: dist/apk

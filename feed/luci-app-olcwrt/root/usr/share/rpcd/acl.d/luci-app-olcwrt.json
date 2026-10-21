@@ -1,0 +1,27 @@
+{
+	"luci-app-olcwrt": {
+		"description": "Grant access to olcWRT",
+		"read": {
+			"file": {
+				"/etc/olcwrt/proxy.lst": [ "read" ],
+				"/etc/olcwrt/bypass.lst": [ "read" ]
+			},
+			"ubus": {
+				"luci.olcwrt": [ "status", "logs", "export", "job_get" ],
+				"luci-rpc": [ "getHostHints" ]
+			},
+			"uci": [ "olcwrt" ]
+		},
+		"write": {
+			"file": {
+				"/etc/olcwrt/proxy.lst": [ "write" ],
+				"/etc/olcwrt/bypass.lst": [ "write" ]
+			},
+			"ubus": {
+				"luci.olcwrt": [ "import", "job_start", "reload" ],
+				"luci": [ "setInitAction" ]
+			},
+			"uci": [ "olcwrt" ]
+		}
+	}
+}

@@ -1,0 +1,692 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "\"olcWRT\" sends the User-Agent olcwrt/version and a persistent x-hwid header, like olcbox. \"Browser\" pretends to be a web browser."
+msgstr ""
+
+msgid "%d active, %d total, %d failed"
+msgstr ""
+
+msgid "%d servers"
+msgstr ""
+
+msgid "%d total, %d through the tunnel, %d direct, %d failed"
+msgstr ""
+
+msgid "%dd %dh"
+msgstr ""
+
+msgid "%dh %dm"
+msgstr ""
+
+msgid "%dm %ds"
+msgstr ""
+
+msgid "%ds"
+msgstr ""
+
+msgid "%h: %d entries, updated %s"
+msgstr ""
+
+msgid "64 hexadecimal characters, the same as on the server."
+msgstr ""
+
+msgid "A subscription is a URL with a list of olcrtc:// servers. Its servers are added to the server list and kept up to date automatically."
+msgstr ""
+
+msgid "Active server"
+msgstr ""
+
+msgid "Add server"
+msgstr ""
+
+msgid "Add subscription"
+msgstr ""
+
+msgid "Address lifetime"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "All clients"
+msgstr ""
+
+msgid "All clients except the listed ones"
+msgstr ""
+
+msgid "All queries through the tunnel"
+msgstr ""
+
+msgid "All traffic through the tunnel"
+msgstr ""
+
+msgid "All traffic through the tunnel, except the bypass list"
+msgstr ""
+
+msgid "Allow access from the network"
+msgstr ""
+
+msgid "Also send IPv6 TCP traffic through the tunnel. Disable if the olcrtc server has no IPv6."
+msgstr ""
+
+msgid "Answer AAAA queries resolved through the tunnel with no addresses. Useful when the olcrtc server has no IPv6."
+msgstr ""
+
+msgid "Auto update"
+msgstr ""
+
+msgid "Block QUIC"
+msgstr ""
+
+msgid "Browser"
+msgstr ""
+
+msgid "Bypass list"
+msgstr ""
+
+msgid "Bypass list URLs"
+msgstr ""
+
+msgid "Bytes"
+msgstr ""
+
+msgid "Bytes, 0 = automatic"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Check URL"
+msgstr ""
+
+msgid "Check connection"
+msgstr ""
+
+msgid "Checking…"
+msgstr ""
+
+msgid "Client list"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Connecting"
+msgstr ""
+
+msgid "Connections"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "DNS"
+msgstr ""
+
+msgid "DNS for olcrtc"
+msgstr ""
+
+msgid "DNS queries"
+msgstr ""
+
+msgid "DNS resolver port"
+msgstr ""
+
+msgid "DNS servers behind the tunnel"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Debug also logs every proxied connection, which uses more memory."
+msgstr ""
+
+msgid "Default (low)"
+msgstr ""
+
+msgid "Default (qrcode)"
+msgstr ""
+
+msgid "Direct DNS servers"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Domains (with subdomains), addresses and subnets that always go through the tunnel. In \"only listed\" mode nothing else does."
+msgstr ""
+
+msgid "Domains, addresses and subnets that never go through the tunnel. Private networks are always bypassed."
+msgstr ""
+
+msgid "Download through the tunnel"
+msgstr ""
+
+msgid "Downloaded lists"
+msgstr ""
+
+msgid "Downloading the subscription…"
+msgstr ""
+
+msgid "Drop IPv6 answers"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable and start"
+msgstr ""
+
+msgid "Encryption key"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Expecting 64 hexadecimal characters"
+msgstr ""
+
+msgid "Expecting a duration such as 30m, 6h or 1d"
+msgstr ""
+
+msgid "Expecting a size such as 64M"
+msgstr ""
+
+msgid "Expecting an http:// or https:// URL"
+msgstr ""
+
+msgid "Expecting host or host:port"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export links…"
+msgstr ""
+
+msgid "Failed: %s"
+msgstr ""
+
+msgid "Failover delay"
+msgstr ""
+
+msgid "Failover order"
+msgstr ""
+
+msgid "Follow"
+msgstr ""
+
+msgid "For example 30m, 6h, 1d. Empty: as announced by the subscription, otherwise daily. 0: manual updates only."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "General settings of the olcRTC client."
+msgstr ""
+
+msgid "How long addresses learned from DNS answers stay in the routing sets."
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import links…"
+msgstr ""
+
+msgid "Imported: %d new, %d updated"
+msgstr ""
+
+msgid "Importing…"
+msgstr ""
+
+msgid "In \"all traffic\" mode every query except the bypass list is resolved through the tunnel. This avoids DNS spoofing and leaks."
+msgstr ""
+
+msgid "Integrate with dnsmasq"
+msgstr ""
+
+msgid "Intercept DNS"
+msgstr ""
+
+msgid "Interfaces"
+msgstr ""
+
+msgid "Jitsi works best with DataChannel; Telemost and WB Stream need VP8, SEI or Video."
+msgstr ""
+
+msgid "Jitsi: full room URL, e.g. https://meet.example.org/room. Telemost and WB Stream: the room ID created on the service website."
+msgstr ""
+
+msgid "Last error"
+msgstr ""
+
+msgid "Learned addresses"
+msgstr ""
+
+msgid "Listed domains only"
+msgstr ""
+
+msgid "Listen on all interfaces so devices can use the proxy directly. A login and password are required."
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Lists updated"
+msgstr ""
+
+msgid "Local port of the olcWRT resolver used by dnsmasq."
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "Log level"
+msgstr ""
+
+msgid "MAC addresses, IP addresses or subnets."
+msgstr ""
+
+msgid "Messages of olcWRT and olcrtc. The log is kept in RAM and limited in size; per-connection messages appear only with the Debug log level."
+msgstr ""
+
+msgid "Milliseconds"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Networks whose clients are redirected."
+msgstr ""
+
+msgid "No downloaded lists."
+msgstr ""
+
+msgid "No result"
+msgstr ""
+
+msgid "No server selected"
+msgstr ""
+
+msgid "No servers yet: add them on the Servers or Subscriptions page."
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Not integrated"
+msgstr ""
+
+msgid "Not running"
+msgstr ""
+
+msgid "OK, %d ms"
+msgstr ""
+
+msgid "Off (SOCKS5 proxy only)"
+msgstr ""
+
+msgid "Off: no redirection, SOCKS5 proxy only"
+msgstr ""
+
+msgid "Only destinations from the proxy list"
+msgstr ""
+
+msgid "Only listed destinations"
+msgstr ""
+
+msgid "Only the listed clients"
+msgstr ""
+
+msgid "Optional peer-routing channel ID."
+msgstr ""
+
+msgid "Optional. WB Stream DataChannel needs a token with publish rights; leave empty for the guest flow."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Paste olcrtc:// links (one per line), a subscription document, or subscription URLs."
+msgstr ""
+
+msgid "Pause before trying the next server, e.g. 2s."
+msgstr ""
+
+msgid "Percent, 0-200"
+msgstr ""
+
+msgid "Pixels, 1-270"
+msgstr ""
+
+msgid "Plain text lists downloaded daily: domains, IP addresses or subnets, one per line. dnsmasq server=/nftset= lines are understood as well."
+msgstr ""
+
+msgid "Port of the olcrtc SOCKS5 proxy on the router."
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Provider account token"
+msgstr ""
+
+msgid "Proxy list"
+msgstr ""
+
+msgid "Proxy list URLs"
+msgstr ""
+
+msgid "QR error correction"
+msgstr ""
+
+msgid "QR fragment size"
+msgstr ""
+
+msgid "Queried over TCP through the tunnel."
+msgstr ""
+
+msgid "Reconnecting"
+msgstr ""
+
+msgid "Redirect DNS queries of clients with their own DNS servers to the router."
+msgstr ""
+
+msgid "Redirect IPv6"
+msgstr ""
+
+msgid "Reed-Solomon parity"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Reject UDP port 443 to proxied destinations so browsers fall back to TCP, which the tunnel can carry."
+msgstr ""
+
+msgid "Request identity"
+msgstr ""
+
+msgid "Requested through the tunnel by \"Check connection\"."
+msgstr ""
+
+msgid "Required for domain lists."
+msgstr ""
+
+msgid "Resolve all names through the tunnel"
+msgstr ""
+
+msgid "Resolver olcrtc uses to reach the video service, host:port. \"auto\" uses the DNS servers of the WAN connection. It must not point at the router itself."
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Room"
+msgstr ""
+
+msgid "Routing"
+msgstr ""
+
+msgid "Running (PID %d)"
+msgstr ""
+
+msgid "SEI ACK timeout"
+msgstr ""
+
+msgid "SEI FPS"
+msgstr ""
+
+msgid "SEI fragment size"
+msgstr ""
+
+msgid "SEI frames per tick"
+msgstr ""
+
+msgid "SOCKS5 port"
+msgstr ""
+
+msgid "SOCKS5 proxy"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Server links in the olcrtc:// format. They contain the encryption keys, share them carefully."
+msgstr ""
+
+msgid "Server list"
+msgstr ""
+
+msgid "Servers"
+msgstr ""
+
+msgid "Servers in use"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Soft limit for the Go runtime of olcrtc, e.g. 64M. Helps on routers with little RAM. Empty: no limit."
+msgstr ""
+
+msgid "Start a temporary connection to this server and test it"
+msgstr ""
+
+msgid "Start olcWRT now and at boot."
+msgstr ""
+
+msgid "Starting"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Subscription"
+msgstr ""
+
+msgid "Subscriptions"
+msgstr ""
+
+msgid "Subscriptions updated: %d servers"
+msgstr ""
+
+msgid "The daemon does not respond."
+msgstr ""
+
+msgid "The first server is used; when it fails the next one is tried. If the list is empty the first server below is used."
+msgstr ""
+
+msgid "The job could not be started"
+msgstr ""
+
+msgid "The log is empty."
+msgstr ""
+
+msgid "The olcrtc binary is missing: install the olcrtc package."
+msgstr ""
+
+msgid "The router itself cannot be used: its DNS may depend on the tunnel"
+msgstr ""
+
+msgid "The service is not running"
+msgstr ""
+
+msgid "Tile (requires 1080x1080)"
+msgstr ""
+
+msgid "Tile size"
+msgstr ""
+
+msgid "Timed out waiting for the router"
+msgstr ""
+
+msgid "Traffic"
+msgstr ""
+
+msgid "Transparent proxy port"
+msgstr ""
+
+msgid "Transport"
+msgstr ""
+
+msgid "Try the tunnel first; by default the subscription is downloaded directly and the tunnel is only a fallback."
+msgstr ""
+
+msgid "Tunnel"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update all now"
+msgstr ""
+
+msgid "Update interval"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Use this server"
+msgstr ""
+
+msgid "Used for bypassed domains and for downloads. Empty: the servers of the WAN connection."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "VP8 FPS"
+msgstr ""
+
+msgid "VP8 frames per tick"
+msgstr ""
+
+msgid "Video FPS"
+msgstr ""
+
+msgid "Video codec"
+msgstr ""
+
+msgid "Video height"
+msgstr ""
+
+msgid "Video width"
+msgstr ""
+
+msgid "Waiting for the server in the room"
+msgstr ""
+
+msgid "Which traffic of the local network goes through the tunnel. olcRTC carries TCP only: UDP (except DNS) always goes directly."
+msgstr ""
+
+msgid "auto (WAN DNS)"
+msgstr ""
+
+msgid "automatic"
+msgstr ""
+
+msgid "available %s"
+msgstr ""
+
+msgid "exit IP %s"
+msgstr ""
+
+msgid "expires %s"
+msgstr ""
+
+msgid "for %s"
+msgstr ""
+
+msgid "from WAN"
+msgstr ""
+
+msgid "manual"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "not downloaded yet"
+msgstr ""
+
+msgid "olcRTC client: an encrypted TCP tunnel disguised as a video call on Jitsi, Yandex Telemost or WB Stream."
+msgstr ""
+
+msgid "olcRTC endpoints: a room on a video conferencing service and the shared encryption key of the olcrtc server in that room."
+msgstr ""
+
+msgid "olcWRT"
+msgstr ""
+
+msgid "olcWRT is restarting"
+msgstr ""
+
+msgid "olcWRT plugs into dnsmasq: queries for listed domains are answered through the tunnel and their addresses are routed accordingly."
+msgstr ""
+
+msgid "olcrtc memory limit"
+msgstr ""
+
+msgid "olcrtc restarts"
+msgstr ""
+
+msgid "proxy: %d domains, %d networks; bypass: %d domains, %d networks"
+msgstr ""
+
+msgid "session in %.1f s"
+msgstr ""
+
+msgid "updated %s"
+msgstr ""
+
+msgid "used %s"
+msgstr ""
+
+msgid "↑ %s ↓ %s"
+msgstr ""

@@ -1,0 +1,7 @@
+# olcWRT: destinations that never go through the tunnel.
+# Private and reserved networks are always bypassed.
+#
+# One entry per line:
+#   example.com        domain together with all subdomains
+#   203.0.113.0/24     IPv4 or IPv6 subnet
+#   198.51.100.7       single address

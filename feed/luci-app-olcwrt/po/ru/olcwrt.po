@@ -1,0 +1,695 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "\"olcWRT\" sends the User-Agent olcwrt/version and a persistent x-hwid header, like olcbox. \"Browser\" pretends to be a web browser."
+msgstr "«olcWRT» отправляет User-Agent olcwrt/версия и постоянный заголовок x-hwid, как olcbox. «Браузер» представляется обычным веб-браузером."
+
+msgid "%d active, %d total, %d failed"
+msgstr "%d активных, всего %d, ошибок %d"
+
+msgid "%d servers"
+msgstr "серверов: %d"
+
+msgid "%d total, %d through the tunnel, %d direct, %d failed"
+msgstr "всего %d, через туннель %d, напрямую %d, ошибок %d"
+
+msgid "%dd %dh"
+msgstr "%d д %d ч"
+
+msgid "%dh %dm"
+msgstr "%d ч %d мин"
+
+msgid "%dm %ds"
+msgstr "%d мин %d с"
+
+msgid "%ds"
+msgstr "%d с"
+
+msgid "%h: %d entries, updated %s"
+msgstr "%h: записей %d, обновлено %s"
+
+msgid "64 hexadecimal characters, the same as on the server."
+msgstr "64 шестнадцатеричных символа, такой же, как на сервере."
+
+msgid "A subscription is a URL with a list of olcrtc:// servers. Its servers are added to the server list and kept up to date automatically."
+msgstr "Подписка — это URL со списком серверов olcrtc://. Её серверы добавляются в список серверов и автоматически обновляются."
+
+msgid "Active server"
+msgstr "Активный сервер"
+
+msgid "Add server"
+msgstr "Добавить сервер"
+
+msgid "Add subscription"
+msgstr "Добавить подписку"
+
+msgid "Address lifetime"
+msgstr "Время жизни адресов"
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "All clients"
+msgstr "Все клиенты"
+
+msgid "All clients except the listed ones"
+msgstr "Все клиенты, кроме перечисленных"
+
+msgid "All queries through the tunnel"
+msgstr "Все запросы через туннель"
+
+msgid "All traffic through the tunnel"
+msgstr "Весь трафик через туннель"
+
+msgid "All traffic through the tunnel, except the bypass list"
+msgstr "Весь трафик через туннель, кроме списка исключений"
+
+msgid "Allow access from the network"
+msgstr "Разрешить доступ из сети"
+
+msgid "Also send IPv6 TCP traffic through the tunnel. Disable if the olcrtc server has no IPv6."
+msgstr "Направлять в туннель и TCP-трафик IPv6. Отключите, если у сервера olcrtc нет IPv6."
+
+msgid "Answer AAAA queries resolved through the tunnel with no addresses. Useful when the olcrtc server has no IPv6."
+msgstr "Отвечать на AAAA-запросы, идущие через туннель, без адресов. Полезно, если у сервера olcrtc нет IPv6."
+
+msgid "Auto update"
+msgstr "Автообновление"
+
+msgid "Block QUIC"
+msgstr "Блокировать QUIC"
+
+msgid "Browser"
+msgstr "Браузер"
+
+msgid "Bypass list"
+msgstr "Список исключений"
+
+msgid "Bypass list URLs"
+msgstr "URL списков исключений"
+
+msgid "Bytes"
+msgstr "Байт"
+
+msgid "Bytes, 0 = automatic"
+msgstr "Байт, 0 = автоматически"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Check"
+msgstr "Проверить"
+
+msgid "Check URL"
+msgstr "URL для проверки"
+
+msgid "Check connection"
+msgstr "Проверить соединение"
+
+msgid "Checking…"
+msgstr "Проверка…"
+
+msgid "Client list"
+msgstr "Список клиентов"
+
+msgid "Clients"
+msgstr "Клиенты"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Comment"
+msgstr "Комментарий"
+
+msgid "Connected"
+msgstr "Подключено"
+
+msgid "Connecting"
+msgstr "Подключение"
+
+msgid "Connections"
+msgstr "Соединения"
+
+msgid "Control"
+msgstr "Управление"
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "DNS for olcrtc"
+msgstr "DNS для olcrtc"
+
+msgid "DNS queries"
+msgstr "DNS-запросы"
+
+msgid "DNS resolver port"
+msgstr "Порт DNS-резолвера"
+
+msgid "DNS servers behind the tunnel"
+msgstr "DNS-серверы за туннелем"
+
+msgid "Debug"
+msgstr "Отладка"
+
+msgid "Debug also logs every proxied connection, which uses more memory."
+msgstr "В режиме отладки записывается каждое проксируемое соединение, это расходует больше памяти."
+
+msgid "Default (low)"
+msgstr "По умолчанию (low)"
+
+msgid "Default (qrcode)"
+msgstr "По умолчанию (qrcode)"
+
+msgid "Direct DNS servers"
+msgstr "DNS-серверы напрямую"
+
+msgid "Disable"
+msgstr "Выключить"
+
+msgid "Disabled"
+msgstr "Выключено"
+
+msgid "Domains (with subdomains), addresses and subnets that always go through the tunnel. In \"only listed\" mode nothing else does."
+msgstr "Домены (вместе с поддоменами), адреса и подсети, которые всегда идут через туннель. В режиме «только из списка» через туннель идут только они."
+
+msgid "Domains, addresses and subnets that never go through the tunnel. Private networks are always bypassed."
+msgstr "Домены, адреса и подсети, которые никогда не идут через туннель. Частные сети всегда идут напрямую."
+
+msgid "Download through the tunnel"
+msgstr "Загружать через туннель"
+
+msgid "Downloaded lists"
+msgstr "Загружаемые списки"
+
+msgid "Downloading the subscription…"
+msgstr "Загрузка подписки…"
+
+msgid "Drop IPv6 answers"
+msgstr "Отбрасывать IPv6-ответы"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Enable"
+msgstr "Включить"
+
+msgid "Enable and start"
+msgstr "Включить и запустить"
+
+msgid "Encryption key"
+msgstr "Ключ шифрования"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Expecting 64 hexadecimal characters"
+msgstr "Ожидается 64 шестнадцатеричных символа"
+
+msgid "Expecting a duration such as 30m, 6h or 1d"
+msgstr "Ожидается интервал, например 30m, 6h или 1d"
+
+msgid "Expecting a size such as 64M"
+msgstr "Ожидается размер, например 64M"
+
+msgid "Expecting an http:// or https:// URL"
+msgstr "Ожидается URL вида http:// или https://"
+
+msgid "Expecting host or host:port"
+msgstr "Ожидается адрес или адрес:порт"
+
+msgid "Export"
+msgstr "Экспорт"
+
+msgid "Export links…"
+msgstr "Экспорт ссылок…"
+
+msgid "Failed: %s"
+msgstr "Ошибка: %s"
+
+msgid "Failover delay"
+msgstr "Пауза перед переключением"
+
+msgid "Failover order"
+msgstr "Порядок переключения"
+
+msgid "Follow"
+msgstr "Следить"
+
+msgid "For example 30m, 6h, 1d. Empty: as announced by the subscription, otherwise daily. 0: manual updates only."
+msgstr "Например 30m, 6h, 1d. Пусто: как указано в подписке, иначе раз в сутки. 0: только вручную."
+
+msgid "General"
+msgstr "Основные"
+
+msgid "General settings of the olcRTC client."
+msgstr "Общие настройки клиента olcRTC."
+
+msgid "How long addresses learned from DNS answers stay in the routing sets."
+msgstr "Сколько адреса, полученные из DNS-ответов, хранятся в наборах маршрутизации."
+
+msgid "Import"
+msgstr "Импорт"
+
+msgid "Import links…"
+msgstr "Импорт ссылок…"
+
+msgid "Imported: %d new, %d updated"
+msgstr "Импортировано: новых %d, обновлено %d"
+
+msgid "Importing…"
+msgstr "Импорт…"
+
+msgid "In \"all traffic\" mode every query except the bypass list is resolved through the tunnel. This avoids DNS spoofing and leaks."
+msgstr "В режиме «весь трафик» все запросы, кроме списка исключений, разрешаются через туннель. Это защищает от подмены DNS и утечек."
+
+msgid "Integrate with dnsmasq"
+msgstr "Интеграция с dnsmasq"
+
+msgid "Intercept DNS"
+msgstr "Перехватывать DNS"
+
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+msgid "Jitsi works best with DataChannel; Telemost and WB Stream need VP8, SEI or Video."
+msgstr "Для Jitsi лучше всего DataChannel; для Telemost и WB Stream нужны VP8, SEI или Video."
+
+msgid "Jitsi: full room URL, e.g. https://meet.example.org/room. Telemost and WB Stream: the room ID created on the service website."
+msgstr "Jitsi: полный URL комнаты, например https://meet.example.org/room. Telemost и WB Stream: ID комнаты, созданной на сайте сервиса."
+
+msgid "Last error"
+msgstr "Последняя ошибка"
+
+msgid "Learned addresses"
+msgstr "Изученные адреса"
+
+msgid "Listed domains only"
+msgstr "Только домены из списков"
+
+msgid "Listen on all interfaces so devices can use the proxy directly. A login and password are required."
+msgstr "Слушать на всех интерфейсах, чтобы устройства могли использовать прокси напрямую. Логин и пароль обязательны."
+
+msgid "Lists"
+msgstr "Списки"
+
+msgid "Lists updated"
+msgstr "Списки обновлены"
+
+msgid "Local port of the olcWRT resolver used by dnsmasq."
+msgstr "Локальный порт резолвера olcWRT, к которому обращается dnsmasq."
+
+msgid "Log"
+msgstr "Журнал"
+
+msgid "Log level"
+msgstr "Уровень журнала"
+
+msgid "MAC addresses, IP addresses or subnets."
+msgstr "MAC-адреса, IP-адреса или подсети."
+
+msgid "Messages of olcWRT and olcrtc. The log is kept in RAM and limited in size; per-connection messages appear only with the Debug log level."
+msgstr "Сообщения olcWRT и olcrtc. Журнал хранится в ОЗУ и ограничен по размеру; сообщения о каждом соединении появляются только на уровне «Отладка»."
+
+msgid "Milliseconds"
+msgstr "Миллисекунды"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Networks whose clients are redirected."
+msgstr "Сети, клиенты которых перенаправляются."
+
+msgid "No downloaded lists."
+msgstr "Нет загружаемых списков."
+
+msgid "No result"
+msgstr "Нет результата"
+
+msgid "No server selected"
+msgstr "Сервер не выбран"
+
+msgid "No servers yet: add them on the Servers or Subscriptions page."
+msgstr "Серверов пока нет: добавьте их на странице «Серверы» или «Подписки»."
+
+msgid "Normal"
+msgstr "Обычный"
+
+msgid "Not integrated"
+msgstr "Не используется"
+
+msgid "Not running"
+msgstr "Не запущена"
+
+msgid "OK, %d ms"
+msgstr "OK, %d мс"
+
+msgid "Off (SOCKS5 proxy only)"
+msgstr "Выключено (только SOCKS5-прокси)"
+
+msgid "Off: no redirection, SOCKS5 proxy only"
+msgstr "Выключено: без перенаправления, только SOCKS5-прокси"
+
+msgid "Only destinations from the proxy list"
+msgstr "Только адреса из списка проксирования"
+
+msgid "Only listed destinations"
+msgstr "Только адреса из списков"
+
+msgid "Only the listed clients"
+msgstr "Только перечисленные клиенты"
+
+msgid "Optional peer-routing channel ID."
+msgstr "Необязательный ID канала для маршрутизации между участниками."
+
+msgid "Optional. WB Stream DataChannel needs a token with publish rights; leave empty for the guest flow."
+msgstr "Необязательно. Для WB Stream DataChannel нужен токен с правом публикации; оставьте пустым для гостевого входа."
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Paste olcrtc:// links (one per line), a subscription document, or subscription URLs."
+msgstr "Вставьте ссылки olcrtc:// (по одной в строке), текст подписки или URL подписок."
+
+msgid "Pause before trying the next server, e.g. 2s."
+msgstr "Пауза перед попыткой следующего сервера, например 2s."
+
+msgid "Percent, 0-200"
+msgstr "Проценты, 0-200"
+
+msgid "Pixels, 1-270"
+msgstr "Пиксели, 1-270"
+
+msgid "Plain text lists downloaded daily: domains, IP addresses or subnets, one per line. dnsmasq server=/nftset= lines are understood as well."
+msgstr "Текстовые списки, загружаемые раз в сутки: домены, IP-адреса или подсети, по одному в строке. Строки dnsmasq server= и nftset= тоже понимаются."
+
+msgid "Port of the olcrtc SOCKS5 proxy on the router."
+msgstr "Порт SOCKS5-прокси olcrtc на роутере."
+
+msgid "Provider"
+msgstr "Провайдер"
+
+msgid "Provider account token"
+msgstr "Токен аккаунта провайдера"
+
+msgid "Proxy list"
+msgstr "Список проксирования"
+
+msgid "Proxy list URLs"
+msgstr "URL списков проксирования"
+
+msgid "QR error correction"
+msgstr "Коррекция ошибок QR"
+
+msgid "QR fragment size"
+msgstr "Размер фрагмента QR"
+
+msgid "Queried over TCP through the tunnel."
+msgstr "Запрашиваются по TCP через туннель."
+
+msgid "Reconnecting"
+msgstr "Переподключение"
+
+msgid "Redirect DNS queries of clients with their own DNS servers to the router."
+msgstr "Перенаправлять на роутер DNS-запросы клиентов, использующих собственные DNS-серверы."
+
+msgid "Redirect IPv6"
+msgstr "Перенаправлять IPv6"
+
+msgid "Reed-Solomon parity"
+msgstr "Избыточность Рида-Соломона"
+
+msgid "Refresh"
+msgstr "Обновить"
+
+msgid "Reject UDP port 443 to proxied destinations so browsers fall back to TCP, which the tunnel can carry."
+msgstr "Отклонять UDP-порт 443 к проксируемым адресам, чтобы браузеры переходили на TCP, который передаётся через туннель."
+
+msgid "Request identity"
+msgstr "Идентификация запросов"
+
+msgid "Requested through the tunnel by \"Check connection\"."
+msgstr "Запрашивается через туннель кнопкой «Проверить соединение»."
+
+msgid "Required for domain lists."
+msgstr "Нужна для доменных списков."
+
+msgid "Resolve all names through the tunnel"
+msgstr "Разрешать все имена через туннель"
+
+msgid "Resolver olcrtc uses to reach the video service, host:port. \"auto\" uses the DNS servers of the WAN connection. It must not point at the router itself."
+msgstr "Резолвер, через который olcrtc находит сервис видеозвонков, адрес:порт. «auto» — DNS-серверы WAN-подключения. Нельзя указывать сам роутер."
+
+msgid "Restart"
+msgstr "Перезапустить"
+
+msgid "Room"
+msgstr "Комната"
+
+msgid "Routing"
+msgstr "Маршрутизация"
+
+msgid "Running (PID %d)"
+msgstr "Запущена (PID %d)"
+
+msgid "SEI ACK timeout"
+msgstr "Таймаут ACK для SEI"
+
+msgid "SEI FPS"
+msgstr "FPS для SEI"
+
+msgid "SEI fragment size"
+msgstr "Размер фрагмента SEI"
+
+msgid "SEI frames per tick"
+msgstr "Кадров SEI за такт"
+
+msgid "SOCKS5 port"
+msgstr "Порт SOCKS5"
+
+msgid "SOCKS5 proxy"
+msgstr "SOCKS5-прокси"
+
+msgid "Server"
+msgstr "Сервер"
+
+msgid "Server links in the olcrtc:// format. They contain the encryption keys, share them carefully."
+msgstr "Ссылки на серверы в формате olcrtc://. Они содержат ключи шифрования, передавайте их осторожно."
+
+msgid "Server list"
+msgstr "Список серверов"
+
+msgid "Servers"
+msgstr "Серверы"
+
+msgid "Servers in use"
+msgstr "Используемые серверы"
+
+msgid "Service"
+msgstr "Служба"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Soft limit for the Go runtime of olcrtc, e.g. 64M. Helps on routers with little RAM. Empty: no limit."
+msgstr "Мягкий лимит памяти Go-среды olcrtc, например 64M. Помогает на роутерах с небольшим объёмом ОЗУ. Пусто: без лимита."
+
+msgid "Start a temporary connection to this server and test it"
+msgstr "Запустить временное подключение к этому серверу и проверить его"
+
+msgid "Start olcWRT now and at boot."
+msgstr "Запустить olcWRT сейчас и при загрузке."
+
+msgid "Starting"
+msgstr "Запуск"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Stopped"
+msgstr "Остановлено"
+
+msgid "Subscription"
+msgstr "Подписка"
+
+msgid "Subscriptions"
+msgstr "Подписки"
+
+msgid "Subscriptions updated: %d servers"
+msgstr "Подписки обновлены, серверов: %d"
+
+msgid "The daemon does not respond."
+msgstr "Служба не отвечает."
+
+msgid "The first server is used; when it fails the next one is tried. If the list is empty the first server below is used."
+msgstr "Используется первый сервер; если он недоступен, пробуется следующий. Если список пуст, используется первый сервер из списка ниже."
+
+msgid "The job could not be started"
+msgstr "Не удалось запустить задачу"
+
+msgid "The log is empty."
+msgstr "Журнал пуст."
+
+msgid "The olcrtc binary is missing: install the olcrtc package."
+msgstr "Отсутствует программа olcrtc: установите пакет olcrtc."
+
+msgid "The router itself cannot be used: its DNS may depend on the tunnel"
+msgstr "Нельзя использовать сам роутер: его DNS может зависеть от туннеля"
+
+msgid "The service is not running"
+msgstr "Служба не запущена"
+
+msgid "Tile (requires 1080x1080)"
+msgstr "Tile (требует 1080x1080)"
+
+msgid "Tile size"
+msgstr "Размер тайла"
+
+msgid "Timed out waiting for the router"
+msgstr "Истекло время ожидания ответа роутера"
+
+msgid "Traffic"
+msgstr "Трафик"
+
+msgid "Transparent proxy port"
+msgstr "Порт прозрачного прокси"
+
+msgid "Transport"
+msgstr "Транспорт"
+
+msgid "Try the tunnel first; by default the subscription is downloaded directly and the tunnel is only a fallback."
+msgstr "Сначала пробовать туннель; по умолчанию подписка загружается напрямую, а туннель используется как запасной путь."
+
+msgid "Tunnel"
+msgstr "Туннель"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Update all now"
+msgstr "Обновить все сейчас"
+
+msgid "Update interval"
+msgstr "Интервал обновления"
+
+msgid "Update now"
+msgstr "Обновить сейчас"
+
+msgid "Use this server"
+msgstr "Использовать этот сервер"
+
+msgid "Used for bypassed domains and for downloads. Empty: the servers of the WAN connection."
+msgstr "Используются для доменов-исключений и для загрузок. Пусто: серверы WAN-подключения."
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "VP8 FPS"
+msgstr "FPS для VP8"
+
+msgid "VP8 frames per tick"
+msgstr "Кадров VP8 за такт"
+
+msgid "Video FPS"
+msgstr "FPS видео"
+
+msgid "Video codec"
+msgstr "Видеокодек"
+
+msgid "Video height"
+msgstr "Высота видео"
+
+msgid "Video width"
+msgstr "Ширина видео"
+
+msgid "Waiting for the server in the room"
+msgstr "Ожидание сервера в комнате"
+
+msgid "Which traffic of the local network goes through the tunnel. olcRTC carries TCP only: UDP (except DNS) always goes directly."
+msgstr "Какой трафик локальной сети идёт через туннель. olcRTC передаёт только TCP: UDP (кроме DNS) всегда идёт напрямую."
+
+msgid "auto (WAN DNS)"
+msgstr "auto (DNS от WAN)"
+
+msgid "automatic"
+msgstr "автоматически"
+
+msgid "available %s"
+msgstr "доступно %s"
+
+msgid "exit IP %s"
+msgstr "внешний IP %s"
+
+msgid "expires %s"
+msgstr "истекает %s"
+
+msgid "for %s"
+msgstr "уже %s"
+
+msgid "from WAN"
+msgstr "от WAN"
+
+msgid "manual"
+msgstr "вручную"
+
+msgid "never"
+msgstr "никогда"
+
+msgid "not downloaded yet"
+msgstr "ещё не загружалась"
+
+msgid "olcRTC client: an encrypted TCP tunnel disguised as a video call on Jitsi, Yandex Telemost or WB Stream."
+msgstr "Клиент olcRTC: зашифрованный TCP-туннель, замаскированный под видеозвонок в Jitsi, Яндекс Телемосте или WB Stream."
+
+msgid "olcRTC endpoints: a room on a video conferencing service and the shared encryption key of the olcrtc server in that room."
+msgstr "Точки подключения olcRTC: комната в сервисе видеозвонков и общий ключ шифрования olcrtc-сервера в этой комнате."
+
+msgid "olcWRT"
+msgstr "olcWRT"
+
+msgid "olcWRT is restarting"
+msgstr "olcWRT перезапускается"
+
+msgid "olcWRT plugs into dnsmasq: queries for listed domains are answered through the tunnel and their addresses are routed accordingly."
+msgstr "olcWRT подключается к dnsmasq: запросы к доменам из списков разрешаются через туннель, а их адреса маршрутизируются соответственно."
+
+msgid "olcrtc memory limit"
+msgstr "Лимит памяти olcrtc"
+
+msgid "olcrtc restarts"
+msgstr "Перезапуски olcrtc"
+
+msgid "proxy: %d domains, %d networks; bypass: %d domains, %d networks"
+msgstr "проксирование: доменов %d, сетей %d; исключения: доменов %d, сетей %d"
+
+msgid "session in %.1f s"
+msgstr "сессия за %.1f с"
+
+msgid "updated %s"
+msgstr "обновлено %s"
+
+msgid "used %s"
+msgstr "использовано %s"
+
+msgid "↑ %s ↓ %s"
+msgstr "↑ %s ↓ %s"

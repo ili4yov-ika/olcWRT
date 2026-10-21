@@ -1,0 +1,8 @@
+# build output
+/dist/
+/.bin/
+/.gotmp/
+*.test
+
+# reference sources of olcRTC and olcbox, fetched separately
+/SOURCES/

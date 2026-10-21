@@ -1,0 +1,23 @@
+# Normalise text files so checkouts on Windows keep router scripts and Go
+# sources LF; OpenWrt shell scripts must not contain CRLF.
+* text=auto eol=lf
+
+*.go       text eol=lf
+*.js       text eol=lf
+*.json     text eol=lf
+*.md       text eol=lf
+*.MD       text eol=lf
+*.mk       text eol=lf
+*.sh       text eol=lf
+*.po       text eol=lf
+*.pot      text eol=lf
+*.lst      text eol=lf
+Makefile   text eol=lf
+*.init     text eol=lf
+*.config   text eol=lf
+
+*.png      binary
+*.jpg      binary
+*.gz       binary
+*.ipk      binary
+*.apk      binary
